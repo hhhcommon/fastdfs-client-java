@@ -40,11 +40,10 @@ public class TestClient {
 
     System.out.println("java.version=" + System.getProperty("java.version"));
 
-   //String conf_filename = args[0];
-    //String local_filename = args[1];
-    String conf_filename = "fdfs_client.conf";
-    String local_filename = "/Users/apple/Downloads/yuri.jpeg";
-    local_filename = "/Users/apple/Downloads/yoona.jpg";
+    /*String conf_filename = args[0];
+    String local_filename = args[1];*/
+    String conf_filename = "D:\\ChuangYingIdea\\fastdfs-client-java\\src\\test\\resources\\fdfs_client.conf";
+    String local_filename = "C:\\test_image.jpg";
 
     try {
       ClientGlobal.init(conf_filename);

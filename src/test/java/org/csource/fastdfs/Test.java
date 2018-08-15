@@ -37,8 +37,10 @@ public class Test {
 
     System.out.println("java.version=" + System.getProperty("java.version"));
 
-    String conf_filename = args[0];
-    String local_filename = args[1];
+    //String conf_filename = args[0];
+    //String local_filename = args[1];
+    String conf_filename = "";
+    String local_filename = "C:\\\\test_image.jpg";
 
     try {
       ClientGlobal.init(conf_filename);
